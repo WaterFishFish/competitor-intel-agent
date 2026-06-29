@@ -1,0 +1,74 @@
+{
+  "competitors": [
+    {
+      "slug": "dify",
+      "name": "Dify",
+      "active": true,
+      "added": "2026-06-29",
+      "auto_discovered": null,
+      "github_metrics": null,
+      "pricing_status": null,
+      "last_snapshot": null
+    },
+    {
+      "slug": "coze",
+      "name": "Coze / 扣子",
+      "active": true,
+      "added": "2026-06-29",
+      "auto_discovered": null,
+      "github_metrics": null,
+      "pricing_status": null,
+      "last_snapshot": null
+    },
+    {
+      "slug": "langchain",
+      "name": "LangChain / LangGraph",
+      "active": true,
+      "added": "2026-06-29",
+      "auto_discovered": null,
+      "github_metrics": null,
+      "pricing_status": null,
+      "last_snapshot": null
+    },
+    {
+      "slug": "autogpt",
+      "name": "AutoGPT / AgentGPT",
+      "active": true,
+      "added": "2026-06-29",
+      "auto_discovered": null,
+      "github_metrics": null,
+      "pricing_status": null,
+      "last_snapshot": null
+    },
+    {
+      "slug": "crewai",
+      "name": "CrewAI",
+      "active": true,
+      "added": "2026-06-29",
+      "auto_discovered": null,
+      "github_metrics": null,
+      "pricing_status": null,
+      "last_snapshot": null
+    },
+    {
+      "slug": "openai-agents-sdk",
+      "name": "OpenAI Agents SDK",
+      "active": true,
+      "added": "2026-06-29",
+      "auto_discovered": null,
+      "github_metrics": null,
+      "pricing_status": null,
+      "last_snapshot": null
+    },
+    {
+      "slug": "bolt-new",
+      "name": "Bolt.new / Lovable",
+      "active": true,
+      "added": "2026-06-29",
+      "auto_discovered": null,
+      "github_metrics": null,
+      "pricing_status": null,
+      "last_snapshot": null
+    }
+  ]
+}
