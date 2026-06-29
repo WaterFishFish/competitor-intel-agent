@@ -5,70 +5,181 @@
       "name": "Dify",
       "active": true,
       "added": "2026-06-29",
-      "auto_discovered": null,
-      "github_metrics": null,
-      "pricing_status": null,
-      "last_snapshot": null
+      "auto_discovered": {
+        "github_org": "langgenius",
+        "github_repo": "dify",
+        "pricing_url": "https://dify.ai/pricing",
+        "changelog_url": "https://github.com/langgenius/dify/releases",
+        "homepage": "https://github.com/langgenius/dify",
+        "discovered_at": "2026-06-29"
+      },
+      "github_metrics": {
+        "stars": 146964,
+        "forks": 23142,
+        "open_issues": 850,
+        "latest_release": "1.15.0",
+        "latest_release_date": "2026-06-25",
+        "description": "Production-ready platform for agentic workflow development."
+      },
+      "pricing_status": {
+        "last_checked": "2026-06-29"
+      },
+      "last_snapshot": "2026-06-29"
     },
     {
       "slug": "coze",
       "name": "Coze / 扣子",
       "active": true,
       "added": "2026-06-29",
-      "auto_discovered": null,
-      "github_metrics": null,
-      "pricing_status": null,
-      "last_snapshot": null
+      "auto_discovered": {
+        "github_org": "coze-dev",
+        "github_repo": "coze-studio",
+        "pricing_url": "https://www.coze.com/pricing",
+        "changelog_url": "https://github.com/coze-dev/coze-studio/releases",
+        "homepage": "https://github.com/coze-dev/coze-studio",
+        "discovered_at": "2026-06-29"
+      },
+      "github_metrics": {
+        "stars": 21066,
+        "forks": 3066,
+        "open_issues": 518,
+        "latest_release": "v0.5.1",
+        "latest_release_date": "2026-02-05",
+        "description": "An AI agent development platform with all-in-one visual tools."
+      },
+      "pricing_status": {
+        "last_checked": "2026-06-29"
+      },
+      "last_snapshot": "2026-06-29"
     },
     {
       "slug": "langchain",
       "name": "LangChain / LangGraph",
       "active": true,
       "added": "2026-06-29",
-      "auto_discovered": null,
-      "github_metrics": null,
-      "pricing_status": null,
-      "last_snapshot": null
+      "auto_discovered": {
+        "github_org": "langchain-ai",
+        "github_repo": "langgraph",
+        "pricing_url": "https://www.langchain.com/pricing",
+        "changelog_url": "https://github.com/langchain-ai/langgraph/releases",
+        "homepage": "https://github.com/langchain-ai/langgraph",
+        "discovered_at": "2026-06-29"
+      },
+      "github_metrics": {
+        "stars": 36016,
+        "forks": 6030,
+        "open_issues": 589,
+        "latest_release": "1.2.6",
+        "latest_release_date": "2026-06-18",
+        "description": "Build resilient agents."
+      },
+      "pricing_status": {
+        "last_checked": "2026-06-29"
+      },
+      "last_snapshot": "2026-06-29"
     },
     {
       "slug": "autogpt",
       "name": "AutoGPT / AgentGPT",
       "active": true,
       "added": "2026-06-29",
-      "auto_discovered": null,
-      "github_metrics": null,
-      "pricing_status": null,
-      "last_snapshot": null
+      "auto_discovered": {
+        "github_org": "Significant-Gravitas",
+        "github_repo": "AutoGPT",
+        "pricing_url": "https://agpt.co/pricing",
+        "changelog_url": "https://github.com/Significant-Gravitas/AutoGPT/releases",
+        "homepage": "https://github.com/Significant-Gravitas/AutoGPT",
+        "discovered_at": "2026-06-29"
+      },
+      "github_metrics": {
+        "stars": 185202,
+        "forks": 46122,
+        "open_issues": 453,
+        "latest_release": "autogpt-platform-beta-v0.6.65",
+        "latest_release_date": "2026-06-25",
+        "description": "AutoGPT is the vision of accessible AI for everyone."
+      },
+      "pricing_status": {
+        "last_checked": "2026-06-29"
+      },
+      "last_snapshot": "2026-06-29"
     },
     {
       "slug": "crewai",
       "name": "CrewAI",
       "active": true,
       "added": "2026-06-29",
-      "auto_discovered": null,
-      "github_metrics": null,
-      "pricing_status": null,
-      "last_snapshot": null
+      "auto_discovered": {
+        "github_org": "crewAIInc",
+        "github_repo": "crewAI",
+        "pricing_url": "https://www.crewai.com/pricing",
+        "changelog_url": "https://github.com/crewAIInc/crewAI/releases",
+        "homepage": "https://github.com/crewAIInc/crewAI",
+        "discovered_at": "2026-06-29"
+      },
+      "github_metrics": {
+        "stars": 54548,
+        "forks": 7641,
+        "open_issues": 579,
+        "latest_release": "1.15.1",
+        "latest_release_date": "2026-06-27",
+        "description": "Framework for orchestrating role-playing, autonomous AI agents."
+      },
+      "pricing_status": {
+        "last_checked": "2026-06-29"
+      },
+      "last_snapshot": "2026-06-29"
     },
     {
       "slug": "openai-agents-sdk",
       "name": "OpenAI Agents SDK",
       "active": true,
       "added": "2026-06-29",
-      "auto_discovered": null,
-      "github_metrics": null,
-      "pricing_status": null,
-      "last_snapshot": null
+      "auto_discovered": {
+        "github_org": "openai",
+        "github_repo": "openai-agents-python",
+        "pricing_url": "https://openai.com/api/pricing",
+        "changelog_url": "https://github.com/openai/openai-agents-python/releases",
+        "homepage": "https://github.com/openai/openai-agents-python",
+        "discovered_at": "2026-06-29"
+      },
+      "github_metrics": {
+        "stars": 27502,
+        "forks": 4235,
+        "open_issues": 75,
+        "latest_release": "v0.17.7",
+        "latest_release_date": "2026-06-24",
+        "description": "A lightweight, powerful framework for multi-agent workflows"
+      },
+      "pricing_status": {
+        "last_checked": "2026-06-29"
+      },
+      "last_snapshot": "2026-06-29"
     },
     {
       "slug": "bolt-new",
       "name": "Bolt.new / Lovable",
       "active": true,
       "added": "2026-06-29",
-      "auto_discovered": null,
-      "github_metrics": null,
-      "pricing_status": null,
-      "last_snapshot": null
+      "auto_discovered": {
+        "github_org": "stackblitz",
+        "github_repo": "bolt.new",
+        "pricing_url": "https://bolt.new/pricing",
+        "changelog_url": "https://github.com/stackblitz/bolt.new/releases",
+        "homepage": "https://github.com/stackblitz/bolt.new",
+        "discovered_at": "2026-06-29"
+      },
+      "github_metrics": {
+        "stars": 16432,
+        "forks": 14664,
+        "open_issues": 8188,
+        "latest_release": "N/A",
+        "latest_release_date": "N/A"
+      },
+      "pricing_status": {
+        "last_checked": "2026-06-29"
+      },
+      "last_snapshot": "2026-06-29"
     }
   ]
 }

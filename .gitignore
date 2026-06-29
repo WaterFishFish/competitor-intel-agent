@@ -3,6 +3,9 @@
 logs/*.md
 !public/logs/*.md
 
+# 可重新生成的快照（按需恢复）
+data/snapshots/
+
 # 系统文件
 .env
 .DS_Store
