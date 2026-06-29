@@ -71,7 +71,6 @@
 ```
 ├── config.yaml               # 竞品/关键词/推送配置
 ├── briefing-agent.md         # Agent 执行指令（Prompt 设计）
-├── INTERVIEW-GUIDE.md        # 🔥 面试问答指南
 ├── README.md                 # 本文件
 └── logs/                     # 每周简报存档
     └── 2026-06-29.md         # 第一份简报（测试）
