@@ -1,0 +1,9 @@
+{
+  "name": "competitor-intel-mcp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "竞品情报 MCP Server — stdio JSON-RPC",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

@@ -14,17 +14,21 @@
         "discovered_at": "2026-06-29"
       },
       "github_metrics": {
-        "stars": 146964,
-        "forks": 23142,
-        "open_issues": 850,
+        "stars": 147038,
+        "forks": 23149,
+        "open_issues": 853,
         "latest_release": "1.15.0",
         "latest_release_date": "2026-06-25",
-        "description": "Production-ready platform for agentic workflow development."
+        "description": "Production-ready platform for agentic workflow development.",
+        "open_prs": 583
       },
       "pricing_status": {
-        "last_checked": "2026-06-29"
+        "last_checked": "2026-06-30",
+        "content_hash": "71db71a1c5692fb8defb21d7eab34f58",
+        "changed": false,
+        "note": "baseline-20260630"
       },
-      "last_snapshot": "2026-06-29"
+      "last_snapshot": "2026-06-30"
     },
     {
       "slug": "coze",
@@ -41,16 +45,20 @@
       },
       "github_metrics": {
         "stars": 21066,
-        "forks": 3066,
+        "forks": 3068,
         "open_issues": 518,
         "latest_release": "v0.5.1",
         "latest_release_date": "2026-02-05",
-        "description": "An AI agent development platform with all-in-one visual tools."
+        "description": "An AI agent development platform with all-in-one visual tools, simplifying agent creation, debugging, and deployment like never before. Coze your way to AI Agent creation.",
+        "open_prs": 41
       },
       "pricing_status": {
-        "last_checked": "2026-06-29"
+        "last_checked": "2026-06-30",
+        "content_hash": "9e31583e36ca5da6b2a566b9d279af93",
+        "changed": false,
+        "note": "baseline-20260630"
       },
-      "last_snapshot": "2026-06-29"
+      "last_snapshot": "2026-06-30"
     },
     {
       "slug": "langchain",
@@ -66,17 +74,21 @@
         "discovered_at": "2026-06-29"
       },
       "github_metrics": {
-        "stars": 36016,
-        "forks": 6030,
-        "open_issues": 589,
-        "latest_release": "1.2.6",
-        "latest_release_date": "2026-06-18",
-        "description": "Build resilient agents."
+        "stars": 36073,
+        "forks": 6042,
+        "open_issues": 594,
+        "latest_release": "1.2.7",
+        "latest_release_date": "2026-06-30",
+        "description": "Build resilient agents.",
+        "open_prs": 223
       },
       "pricing_status": {
-        "last_checked": "2026-06-29"
+        "last_checked": "2026-06-30",
+        "content_hash": "bfe0297a4068c5713066765d33653927",
+        "changed": false,
+        "note": "baseline-20260630"
       },
-      "last_snapshot": "2026-06-29"
+      "last_snapshot": "2026-06-30"
     },
     {
       "slug": "autogpt",
@@ -92,17 +104,21 @@
         "discovered_at": "2026-06-29"
       },
       "github_metrics": {
-        "stars": 185202,
-        "forks": 46122,
-        "open_issues": 453,
+        "stars": 185220,
+        "forks": 46120,
+        "open_issues": 459,
         "latest_release": "autogpt-platform-beta-v0.6.65",
         "latest_release_date": "2026-06-25",
-        "description": "AutoGPT is the vision of accessible AI for everyone."
+        "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+        "open_prs": 178
       },
       "pricing_status": {
-        "last_checked": "2026-06-29"
+        "last_checked": "2026-06-30",
+        "content_hash": "c2bdd6c759b4f37e9d5883a7b9dd271c",
+        "changed": false,
+        "note": "baseline-20260630"
       },
-      "last_snapshot": "2026-06-29"
+      "last_snapshot": "2026-06-30"
     },
     {
       "slug": "crewai",
@@ -118,17 +134,21 @@
         "discovered_at": "2026-06-29"
       },
       "github_metrics": {
-        "stars": 54548,
-        "forks": 7641,
-        "open_issues": 579,
+        "stars": 54588,
+        "forks": 7647,
+        "open_issues": 581,
         "latest_release": "1.15.1",
         "latest_release_date": "2026-06-27",
-        "description": "Framework for orchestrating role-playing, autonomous AI agents."
+        "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
+        "open_prs": 497
       },
       "pricing_status": {
-        "last_checked": "2026-06-29"
+        "last_checked": "2026-06-30",
+        "content_hash": "329ea3b386f81ef6ba20390bbba7b37a",
+        "changed": false,
+        "note": "baseline-20260630"
       },
-      "last_snapshot": "2026-06-29"
+      "last_snapshot": "2026-06-30"
     },
     {
       "slug": "openai-agents-sdk",
@@ -144,17 +164,21 @@
         "discovered_at": "2026-06-29"
       },
       "github_metrics": {
-        "stars": 27502,
-        "forks": 4235,
-        "open_issues": 75,
+        "stars": 27517,
+        "forks": 4239,
+        "open_issues": 72,
         "latest_release": "v0.17.7",
         "latest_release_date": "2026-06-24",
-        "description": "A lightweight, powerful framework for multi-agent workflows"
+        "description": "A lightweight, powerful framework for multi-agent workflows",
+        "open_prs": 40
       },
       "pricing_status": {
-        "last_checked": "2026-06-29"
+        "last_checked": "2026-06-30",
+        "content_hash": "68da7d3c98bf875846ed35f7dcfe57a8",
+        "changed": false,
+        "note": "baseline-20260630"
       },
-      "last_snapshot": "2026-06-29"
+      "last_snapshot": "2026-06-30"
     },
     {
       "slug": "bolt-new",
@@ -170,16 +194,21 @@
         "discovered_at": "2026-06-29"
       },
       "github_metrics": {
-        "stars": 16432,
-        "forks": 14664,
+        "stars": 16433,
+        "forks": 14667,
         "open_issues": 8188,
         "latest_release": "N/A",
-        "latest_release_date": "N/A"
+        "latest_release_date": "N/A",
+        "description": "Prompt, run, edit, and deploy full-stack web applications. -- bolt.new -- Help Center: https://support.bolt.new/ -- Community Support: https://discord.com/invite/stackblitz",
+        "open_prs": 11
       },
       "pricing_status": {
-        "last_checked": "2026-06-29"
+        "last_checked": "2026-06-30",
+        "content_hash": "4f50e680286d713b69453e269c71e5ca",
+        "changed": false,
+        "note": "baseline-20260630"
       },
-      "last_snapshot": "2026-06-29"
+      "last_snapshot": "2026-06-30"
     }
   ]
 }

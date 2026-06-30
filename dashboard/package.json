@@ -1,0 +1,9 @@
+{
+  "name": "competitor-intel-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "竞品情报看板 — Web UI",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

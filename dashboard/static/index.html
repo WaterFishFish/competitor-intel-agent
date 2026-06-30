@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>竞品情报看板</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>📊 竞品情报看板</h1>
+    <p class="subtitle">AI Agent 竞品监控 · <span id="updatedAt">加载中...</span></p>
+  </header>
+
+  <div class="summary-bar" id="summaryBar">
+    <span class="summary-item">加载中...</span>
+  </div>
+
+  <main>
+    <aside class="sidebar">
+      <h3>竞品列表</h3>
+      <ul id="competitorList"></ul>
+      <h3>告警</h3>
+      <div id="alertList"></div>
+    </aside>
+
+    <section class="content">
+      <h2 id="detailTitle">← 选择一个竞品</h2>
+      <div id="detailView" class="detail-empty">
+        <p>点击左侧竞品名称查看详情</p>
+      </div>
+    </section>
+  </main>
+
+  <canvas id="starChart" style="display:none;"></canvas>
+  <script src="app.js"></script>
+</body>
+</html>

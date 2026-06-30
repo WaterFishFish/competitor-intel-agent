@@ -145,6 +145,89 @@ competitors:
 
 ---
 
+## 🌐 Web UI 看板
+
+实时展示竞品数据，带 GitHub 趋势图。
+
+```bash
+node dashboard/server.js
+# → http://localhost:3456
+```
+
+| API | 说明 |
+|-----|------|
+| `GET /api/competitors` | 竞品列表 + GitHub 趋势数据 |
+| `GET /api/alerts` | 定价告警 |
+
+前端使用 Chart.js + 原生 JS，零外部后端依赖。
+
+## 🔌 MCP Server
+
+通过 MCP 协议将竞品数据暴露给其他 Agent / IDE。
+
+**启动：**
+```bash
+node mcp-server/server.js
+# stdio 模式，等待客户端连接
+```
+
+**资源（Resources）：**
+| URI | 说明 |
+|-----|------|
+| `competitor://list` | 所有竞品数据 |
+| `competitor://alerts` | 定价告警 |
+| `competitor://digest/latest` | 最新简报 |
+| `competitor://{slug}/metrics` | 指定竞品指标 |
+| `competitor://{slug}/history` | 指定竞品历史趋势 |
+
+**工具（Tools）：**
+| 工具 | 说明 |
+|------|------|
+| `list_competitors` 📋 | 列出所有竞品概览 |
+| `query_competitor(name)` 🔍 | 查询指定竞品详情 |
+| `compare_competitors(a, b)` ⚔️ | 对比两个竞品 |
+| `check_pricing_alerts` 🚨 | 检查定价告警 |
+| `get_latest_releases` 📦 | 获取所有最新 Release |
+
+**MCP 客户端配置示例（Claude Desktop / Cursor）：**
+```json
+{
+  "mcpServers": {
+    "competitor-intel": {
+      "command": "node",
+      "args": ["/path/to/competitor-intel/mcp-server/server.js"]
+    }
+  }
+}
+```
+
+---
+
+## 📁 项目结构
+
+```
+├── config.yaml               # 竞品配置
+├── briefing-agent.md          # Agent 执行指令
+├── README.md
+├── data/                      # 状态管理
+│   ├── competitors.json       # 竞品状态
+│   ├── snapshots/{slug}/      # 历史快照
+│   ├── digests/               # 简报 JSON
+│   └── alerts.json            # 定价告警
+├── dashboard/                 # 🌐 Web UI 看板
+│   ├── server.js              # FastAPI-like HTTP server
+│   ├── package.json
+│   └── static/
+│       ├── index.html
+│       ├── app.js
+│       └── style.css
+├── mcp-server/                # 🔌 MCP Server
+│   ├── server.js              # stdout/stdin JSON-RPC
+│   └── package.json
+├── logs/                      # 执行日志
+└── docs/plans/                # 设计文档
+```
+
 ## 🔗 相关资源
 
 - [设计文档](docs/plans/2026-06-29-intel-v2-design.md)
