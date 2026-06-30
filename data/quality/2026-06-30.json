@@ -1,0 +1,95 @@
+{
+  "date": "2026-06-30",
+  "overall": {
+    "score": 95,
+    "totalCompetitors": 7,
+    "errors": 1,
+    "warnings": 1,
+    "pass": false
+  },
+  "competitors": {
+    "Dify": {
+      "score": 100,
+      "errorCount": 0,
+      "warnCount": 0,
+      "issues": []
+    },
+    "Coze / 扣子": {
+      "score": 100,
+      "errorCount": 0,
+      "warnCount": 0,
+      "issues": []
+    },
+    "LangChain / LangGraph": {
+      "score": 65,
+      "errorCount": 1,
+      "warnCount": 1,
+      "issues": [
+        {
+          "severity": "error",
+          "type": "anomaly_delta",
+          "field": "stars",
+          "message": "LangChain / LangGraph: Star 变化异常 (-104407)，超过阈值 ±5000",
+          "value": -104407,
+          "threshold": 5000
+        },
+        {
+          "severity": "warn",
+          "type": "anomaly_delta",
+          "field": "forks",
+          "message": "LangChain / LangGraph: Fork 变化异常 (-17274)，超过阈值 ±500",
+          "value": -17274,
+          "threshold": 500
+        }
+      ]
+    },
+    "AutoGPT / AgentGPT": {
+      "score": 100,
+      "errorCount": 0,
+      "warnCount": 0,
+      "issues": []
+    },
+    "CrewAI": {
+      "score": 100,
+      "errorCount": 0,
+      "warnCount": 0,
+      "issues": []
+    },
+    "OpenAI Agents SDK": {
+      "score": 100,
+      "errorCount": 0,
+      "warnCount": 0,
+      "issues": []
+    },
+    "Bolt.new / Lovable": {
+      "score": 100,
+      "errorCount": 0,
+      "warnCount": 0,
+      "issues": []
+    }
+  },
+  "issues": [
+    {
+      "severity": "error",
+      "type": "anomaly_delta",
+      "field": "stars",
+      "message": "LangChain / LangGraph: Star 变化异常 (-104407)，超过阈值 ±5000",
+      "value": -104407,
+      "threshold": 5000
+    },
+    {
+      "severity": "warn",
+      "type": "anomaly_delta",
+      "field": "forks",
+      "message": "LangChain / LangGraph: Fork 变化异常 (-17274)，超过阈值 ±500",
+      "value": -17274,
+      "threshold": 500
+    }
+  ],
+  "thresholds": {
+    "STAR_DELTA_MAX": 5000,
+    "FORK_DELTA_MAX": 500,
+    "DATA_AGE_MAX_HOURS": 48,
+    "FIELD_MISSING_WARN": 0.3
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "timestamp": "2026-06-30T05:41:32.150Z",
+  "summary": {
+    "total": 13,
+    "pass": 13,
+    "fail": 0,
+    "passRate": 100
+  },
+  "suites": {
+    "basic": [
+      {
+        "pass": true,
+        "detail": "7 个竞品",
+        "id": "competitors-json-valid",
+        "name": "competitors.json 合法性"
+      },
+      {
+        "pass": true,
+        "detail": "0 条告警",
+        "id": "alerts-json-valid",
+        "name": "alerts.json 合法性"
+      },
+      {
+        "pass": true,
+        "detail": "0 个缺少 slug",
+        "id": "all-competitors-have-slug",
+        "name": "所有竞品有 slug"
+      },
+      {
+        "pass": true,
+        "detail": "全部已发现",
+        "id": "all-competitors-have-auto-discovered",
+        "name": "所有竞品已自动发现"
+      },
+      {
+        "pass": true,
+        "detail": "全部完整",
+        "id": "github-metrics-exist",
+        "name": "GitHub 指标存在"
+      },
+      {
+        "pass": true,
+        "detail": "全部已检查",
+        "id": "pricing-status-exists",
+        "name": "定价状态存在"
+      }
+    ],
+    "quality": [
+      {
+        "pass": true,
+        "detail": "1 份质量报告",
+        "id": "quality-report-exists",
+        "name": "质量报告存在"
+      },
+      {
+        "pass": true,
+        "detail": "最新质量分: 95/100",
+        "id": "quality-score-threshold",
+        "name": "质量分 >= 80"
+      }
+    ],
+    "snapshots": [
+      {
+        "pass": true,
+        "detail": "全部 7 个快照存在",
+        "id": "github-snapshots-recent",
+        "name": "GitHub 快照当天存在"
+      }
+    ],
+    "mcp": [
+      {
+        "pass": true,
+        "detail": "存在",
+        "id": "mcp-server-file-exists",
+        "name": "MCP Server 文件存在"
+      },
+      {
+        "pass": true,
+        "detail": "语法通过",
+        "id": "mcp-server-syntax",
+        "name": "MCP Server 语法正确"
+      }
+    ],
+    "dashboard": [
+      {
+        "pass": true,
+        "detail": "存在",
+        "id": "dashboard-server-exists",
+        "name": "Dashboard 文件存在"
+      },
+      {
+        "pass": true,
+        "detail": "HTTP 200",
+        "id": "dashboard-api-responding",
+        "name": "Dashboard API 响应（端口 3456）"
+      }
+    ]
+  }
+}
