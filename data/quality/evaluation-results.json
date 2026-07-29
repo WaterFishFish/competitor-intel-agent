@@ -1,16 +1,16 @@
 {
-  "timestamp": "2026-06-30T05:41:32.150Z",
+  "timestamp": "2026-07-29T10:07:08.073Z",
   "summary": {
     "total": 13,
-    "pass": 13,
-    "fail": 0,
-    "passRate": 100
+    "pass": 12,
+    "fail": 1,
+    "passRate": 92
   },
   "suites": {
     "basic": [
       {
         "pass": true,
-        "detail": "7 个竞品",
+        "detail": "8 个竞品",
         "id": "competitors-json-valid",
         "name": "competitors.json 合法性"
       },
@@ -48,21 +48,21 @@
     "quality": [
       {
         "pass": true,
-        "detail": "1 份质量报告",
+        "detail": "2 份质量报告",
         "id": "quality-report-exists",
         "name": "质量报告存在"
       },
       {
         "pass": true,
-        "detail": "最新质量分: 95/100",
+        "detail": "最新质量分: 96/100",
         "id": "quality-score-threshold",
         "name": "质量分 >= 80"
       }
     ],
     "snapshots": [
       {
-        "pass": true,
-        "detail": "全部 7 个快照存在",
+        "pass": false,
+        "detail": "1 个竞品缺少今日快照",
         "id": "github-snapshots-recent",
         "name": "GitHub 快照当天存在"
       }

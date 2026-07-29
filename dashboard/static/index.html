@@ -4,36 +4,115 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>竞品情报看板</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="noise"></div>
+  
   <header>
-    <h1>📊 竞品情报看板</h1>
-    <p class="subtitle">AI Agent 竞品监控 · <span id="updatedAt">加载中...</span></p>
+    <div class="header-inner">
+      <div class="brand">
+        <span class="brand-icon">◆</span>
+        <div>
+          <h1>竞品情报</h1>
+          <span class="brand-sub">AI Agent 竞品监控</span>
+        </div>
+      </div>
+      <div class="header-meta" style="display:flex;align-items:center;gap:0.5rem;">
+        <button class="btn-export" onclick="window.open('/api/export/csv','_blank')">📥 CSV</button>
+        <button class="btn-export" onclick="window.open('/api/export/markdown','_blank')">📄 MD</button>
+        <span class="pill" id="updatedAt">加载中...</span>
+      </div>
+    </div>
   </header>
 
-  <div class="summary-bar" id="summaryBar">
-    <span class="summary-item">加载中...</span>
-  </div>
+  <div class="summary-bar" id="summaryBar"></div>
+
+  <nav class="tabs" id="mainTabs">
+    <button class="tab active" data-tab="detail">📋 概览</button>
+    <button class="tab" data-tab="trends">📈 趋势</button>
+    <button class="tab" data-tab="compare">⚔️ 对比</button>
+    <button class="tab" data-tab="alerts">🚨 告警</button>
+    <button class="tab" data-tab="releases">📦 版本</button>
+  </nav>
 
   <main>
-    <aside class="sidebar">
-      <h3>竞品列表</h3>
-      <ul id="competitorList"></ul>
-      <h3>告警</h3>
-      <div id="alertList"></div>
-    </aside>
+    <!-- Tab 1: 概览 -->
+    <section id="tab-detail" class="tab-content active">
+      <div class="detail-layout">
+        <aside class="sidebar" id="sidebar">
+          <div class="sidebar-header">
+            <h3>竞品</h3>
+            <span class="count-badge" id="compCount">0</span>
+          </div>
+          <ul id="competitorList"></ul>
+        </aside>
+        <section class="content" id="detailView">
+          <div class="empty-state">
+            <span class="empty-icon">◈</span>
+            <p>选择一个竞品查看详情</p>
+          </div>
+        </section>
+      </div>
+    </section>
 
-    <section class="content">
-      <h2 id="detailTitle">← 选择一个竞品</h2>
-      <div id="detailView" class="detail-empty">
-        <p>点击左侧竞品名称查看详情</p>
+    <!-- Tab 2: 趋势对比 -->
+    <section id="tab-trends" class="tab-content">
+      <div class="full-width">
+        <div class="section-header">
+          <h2>📈 Star 趋势对比</h2>
+          <p class="section-desc">所有竞品的 GitHub Star 历史变化曲线</p>
+        </div>
+        <div class="chart-block">
+          <canvas id="trendChart"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tab 3: 竞品对比 -->
+    <section id="tab-compare" class="tab-content">
+      <div class="full-width">
+        <div class="section-header">
+          <h2>⚔️ 竞品对比</h2>
+        </div>
+        <div class="compare-toolbar">
+          <select id="compareA"></select>
+          <span class="vs-badge">VS</span>
+          <select id="compareB"></select>
+          <button class="btn-primary" onclick="loadCompare()">对比</button>
+        </div>
+        <div id="compareResult"></div>
+        <div class="chart-block" id="compareChartContainer" style="display:none;">
+          <canvas id="compareChart"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tab 4: 告警 -->
+    <section id="tab-alerts" class="tab-content">
+      <div class="full-width">
+        <div class="section-header">
+          <h2>🚨 定价告警</h2>
+        </div>
+        <div id="alertDetail"></div>
+      </div>
+    </section>
+
+    <!-- Tab 5: Release -->
+    <section id="tab-releases" class="tab-content">
+      <div class="full-width">
+        <div class="section-header">
+          <h2>📦 最新版本</h2>
+        </div>
+        <div id="releaseDetail"></div>
       </div>
     </section>
   </main>
 
-  <canvas id="starChart" style="display:none;"></canvas>
   <script src="app.js"></script>
 </body>
 </html>

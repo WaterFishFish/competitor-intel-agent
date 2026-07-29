@@ -14,21 +14,28 @@
         "discovered_at": "2026-06-29"
       },
       "github_metrics": {
-        "stars": 147038,
-        "forks": 23149,
-        "open_issues": 853,
-        "latest_release": "1.15.0",
-        "latest_release_date": "2026-06-25",
-        "description": "Production-ready platform for agentic workflow development.",
-        "open_prs": 583
+        "stars": 150681,
+        "forks": 23742,
+        "open_issues": 950,
+        "open_prs": 655,
+        "latest_release": "1.16.1",
+        "latest_release_date": "2026-07-28",
+        "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace."
       },
       "pricing_status": {
-        "last_checked": "2026-06-30",
-        "content_hash": "71db71a1c5692fb8defb21d7eab34f58",
+        "last_checked": "2026-07-29",
+        "content_hash": "27c5ef7e1d791f37edaede21204581ee",
         "changed": false,
-        "note": "baseline-20260630"
+        "note": "baseline-2026-07-29"
       },
-      "last_snapshot": "2026-06-30"
+      "last_snapshot": "2026-07-29",
+      "seen_milestones": [
+        10000,
+        25000,
+        50000,
+        100000,
+        150000
+      ]
     },
     {
       "slug": "coze",
@@ -44,21 +51,24 @@
         "discovered_at": "2026-06-29"
       },
       "github_metrics": {
-        "stars": 21066,
-        "forks": 3068,
-        "open_issues": 518,
+        "stars": 21278,
+        "forks": 3091,
+        "open_issues": 533,
+        "open_prs": 50,
         "latest_release": "v0.5.1",
         "latest_release_date": "2026-02-05",
-        "description": "An AI agent development platform with all-in-one visual tools, simplifying agent creation, debugging, and deployment like never before. Coze your way to AI Agent creation.",
-        "open_prs": 41
+        "description": "An AI agent development platform with all-in-one visual tools."
       },
       "pricing_status": {
-        "last_checked": "2026-06-30",
-        "content_hash": "9e31583e36ca5da6b2a566b9d279af93",
+        "last_checked": "2026-07-29",
+        "content_hash": "302f86ddcebaed605d3c2de7bcbdd441",
         "changed": false,
-        "note": "baseline-20260630"
+        "note": "baseline-2026-07-29"
       },
-      "last_snapshot": "2026-06-30"
+      "last_snapshot": "2026-07-29",
+      "seen_milestones": [
+        10000
+      ]
     },
     {
       "slug": "langchain",
@@ -74,21 +84,25 @@
         "discovered_at": "2026-06-29"
       },
       "github_metrics": {
-        "stars": 36073,
-        "forks": 6042,
-        "open_issues": 594,
-        "latest_release": "1.2.7",
-        "latest_release_date": "2026-06-30",
-        "description": "Build resilient agents.",
-        "open_prs": 223
+        "stars": 38404,
+        "forks": 6466,
+        "open_issues": 649,
+        "open_prs": 230,
+        "latest_release": "1.2.10",
+        "latest_release_date": "2026-07-28",
+        "description": "Build resilient agents."
       },
       "pricing_status": {
-        "last_checked": "2026-06-30",
-        "content_hash": "bfe0297a4068c5713066765d33653927",
+        "last_checked": "2026-07-29",
+        "content_hash": "3483517d8e32a6e5225f3bf79474d7de",
         "changed": false,
-        "note": "baseline-20260630"
+        "note": "baseline-2026-07-29"
       },
-      "last_snapshot": "2026-06-30"
+      "last_snapshot": "2026-07-29",
+      "seen_milestones": [
+        10000,
+        25000
+      ]
     },
     {
       "slug": "autogpt",
@@ -104,21 +118,28 @@
         "discovered_at": "2026-06-29"
       },
       "github_metrics": {
-        "stars": 185220,
-        "forks": 46120,
-        "open_issues": 459,
-        "latest_release": "autogpt-platform-beta-v0.6.65",
-        "latest_release_date": "2026-06-25",
-        "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
-        "open_prs": 178
+        "stars": 185746,
+        "forks": 46067,
+        "open_issues": 521,
+        "open_prs": 211,
+        "latest_release": "autogpt-platform-beta-v0.6.69",
+        "latest_release_date": "2026-07-22",
+        "description": "AutoGPT is the vision of accessible AI for everyone."
       },
       "pricing_status": {
-        "last_checked": "2026-06-30",
-        "content_hash": "c2bdd6c759b4f37e9d5883a7b9dd271c",
+        "last_checked": "2026-07-29",
+        "content_hash": "17d00206d55c9580300670c1a555e694",
         "changed": false,
-        "note": "baseline-20260630"
+        "note": "baseline-2026-07-29"
       },
-      "last_snapshot": "2026-06-30"
+      "last_snapshot": "2026-07-29",
+      "seen_milestones": [
+        10000,
+        25000,
+        50000,
+        100000,
+        150000
+      ]
     },
     {
       "slug": "crewai",
@@ -134,21 +155,26 @@
         "discovered_at": "2026-06-29"
       },
       "github_metrics": {
-        "stars": 54588,
-        "forks": 7647,
-        "open_issues": 581,
-        "latest_release": "1.15.1",
-        "latest_release_date": "2026-06-27",
-        "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
-        "open_prs": 497
+        "stars": 56312,
+        "forks": 8003,
+        "open_issues": 708,
+        "open_prs": 619,
+        "latest_release": "1.15.8",
+        "latest_release_date": "2026-07-28",
+        "description": "Framework for orchestrating role-playing, autonomous AI agents."
       },
       "pricing_status": {
-        "last_checked": "2026-06-30",
-        "content_hash": "329ea3b386f81ef6ba20390bbba7b37a",
+        "last_checked": "2026-07-29",
+        "content_hash": "161be1b85a39ea8be64bca28ec0d4328",
         "changed": false,
-        "note": "baseline-20260630"
+        "note": "baseline-2026-07-29"
       },
-      "last_snapshot": "2026-06-30"
+      "last_snapshot": "2026-07-29",
+      "seen_milestones": [
+        10000,
+        25000,
+        50000
+      ]
     },
     {
       "slug": "openai-agents-sdk",
@@ -164,21 +190,25 @@
         "discovered_at": "2026-06-29"
       },
       "github_metrics": {
-        "stars": 27517,
-        "forks": 4239,
-        "open_issues": 72,
-        "latest_release": "v0.17.7",
-        "latest_release_date": "2026-06-24",
-        "description": "A lightweight, powerful framework for multi-agent workflows",
-        "open_prs": 40
+        "stars": 28266,
+        "forks": 4395,
+        "open_issues": 53,
+        "open_prs": 29,
+        "latest_release": "v0.19.1",
+        "latest_release_date": "2026-07-29",
+        "description": "A lightweight, powerful framework for multi-agent workflows"
       },
       "pricing_status": {
-        "last_checked": "2026-06-30",
-        "content_hash": "68da7d3c98bf875846ed35f7dcfe57a8",
+        "last_checked": "2026-07-29",
+        "content_hash": "3de9ff30a6148c5ced1e0f8408051175",
         "changed": false,
-        "note": "baseline-20260630"
+        "note": "baseline-20260729"
       },
-      "last_snapshot": "2026-06-30"
+      "last_snapshot": "2026-07-29",
+      "seen_milestones": [
+        10000,
+        25000
+      ]
     },
     {
       "slug": "bolt-new",
@@ -194,21 +224,58 @@
         "discovered_at": "2026-06-29"
       },
       "github_metrics": {
-        "stars": 16433,
-        "forks": 14667,
+        "stars": 16479,
+        "forks": 14709,
         "open_issues": 8188,
-        "latest_release": "N/A",
-        "latest_release_date": "N/A",
-        "description": "Prompt, run, edit, and deploy full-stack web applications. -- bolt.new -- Help Center: https://support.bolt.new/ -- Community Support: https://discord.com/invite/stackblitz",
-        "open_prs": 11
+        "open_prs": 11,
+        "latest_release": "—",
+        "latest_release_date": "—",
+        "description": "Prompt, run, edit, and deploy full-stack web applications."
       },
       "pricing_status": {
-        "last_checked": "2026-06-30",
-        "content_hash": "4f50e680286d713b69453e269c71e5ca",
+        "last_checked": "2026-07-29",
+        "content_hash": "705863bf2ca514d13def62e5fec38a37",
         "changed": false,
-        "note": "baseline-20260630"
+        "note": "baseline-2026-07-29"
       },
-      "last_snapshot": "2026-06-30"
+      "last_snapshot": "2026-07-29",
+      "seen_milestones": [
+        10000
+      ]
+    },
+    {
+      "slug": "vercel-ai-sdk",
+      "name": "Vercel AI SDK",
+      "active": true,
+      "added": "2026-07-29",
+      "auto_discovered": {
+        "github_org": "vercel",
+        "github_repo": "ai",
+        "pricing_url": "https://vercel.com/pricing",
+        "changelog_url": "https://github.com/vercel/ai/releases",
+        "homepage": "https://github.com/vercel/ai",
+        "discovered_at": "2026-07-29"
+      },
+      "github_metrics": {
+        "stars": 25881,
+        "forks": 4873,
+        "open_issues": 1686,
+        "open_prs": 841,
+        "latest_release": "@ai-sdk/xai@4.0.21",
+        "latest_release_date": "2026-07-28",
+        "description": "The AI Toolkit for TypeScript. From the creators of Next.js, the AI SDK is a free open-source library for building AI-powered web applications."
+      },
+      "pricing_status": {
+        "last_checked": "2026-07-29",
+        "content_hash": "94ae1c764fcf4d2d15a2123bfe0021cc",
+        "changed": false,
+        "note": "baseline-20260729"
+      },
+      "last_snapshot": "2026-07-29",
+      "seen_milestones": [
+        10000,
+        25000
+      ]
     }
   ]
 }

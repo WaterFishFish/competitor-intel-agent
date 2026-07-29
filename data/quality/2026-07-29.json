@@ -1,0 +1,156 @@
+{
+  "date": "2026-07-29",
+  "overall": {
+    "score": 100,
+    "totalCompetitors": 8,
+    "errors": 0,
+    "warnings": 0,
+    "pass": true
+  },
+  "competitors": {
+    "Dify": {
+      "score": 100,
+      "errorCount": 0,
+      "warnCount": 0,
+      "issues": [
+        {
+          "severity": "info",
+          "type": "no_comparison",
+          "message": "Dify: 无昨日数据，跳过 Delta 对比"
+        }
+      ]
+    },
+    "Coze / 扣子": {
+      "score": 100,
+      "errorCount": 0,
+      "warnCount": 0,
+      "issues": [
+        {
+          "severity": "info",
+          "type": "no_comparison",
+          "message": "Coze / 扣子: 无昨日数据，跳过 Delta 对比"
+        }
+      ]
+    },
+    "LangChain / LangGraph": {
+      "score": 100,
+      "errorCount": 0,
+      "warnCount": 0,
+      "issues": [
+        {
+          "severity": "info",
+          "type": "no_comparison",
+          "message": "LangChain / LangGraph: 无昨日数据，跳过 Delta 对比"
+        }
+      ]
+    },
+    "AutoGPT / AgentGPT": {
+      "score": 100,
+      "errorCount": 0,
+      "warnCount": 0,
+      "issues": [
+        {
+          "severity": "info",
+          "type": "no_comparison",
+          "message": "AutoGPT / AgentGPT: 无昨日数据，跳过 Delta 对比"
+        }
+      ]
+    },
+    "CrewAI": {
+      "score": 100,
+      "errorCount": 0,
+      "warnCount": 0,
+      "issues": [
+        {
+          "severity": "info",
+          "type": "no_comparison",
+          "message": "CrewAI: 无昨日数据，跳过 Delta 对比"
+        }
+      ]
+    },
+    "OpenAI Agents SDK": {
+      "score": 100,
+      "errorCount": 0,
+      "warnCount": 0,
+      "issues": [
+        {
+          "severity": "info",
+          "type": "no_comparison",
+          "message": "OpenAI Agents SDK: 无昨日数据，跳过 Delta 对比"
+        }
+      ]
+    },
+    "Bolt.new / Lovable": {
+      "score": 100,
+      "errorCount": 0,
+      "warnCount": 0,
+      "issues": [
+        {
+          "severity": "info",
+          "type": "no_comparison",
+          "message": "Bolt.new / Lovable: 无昨日数据，跳过 Delta 对比"
+        }
+      ]
+    },
+    "Vercel AI SDK": {
+      "score": 100,
+      "errorCount": 0,
+      "warnCount": 0,
+      "issues": [
+        {
+          "severity": "info",
+          "type": "no_comparison",
+          "message": "Vercel AI SDK: 无昨日数据，跳过 Delta 对比"
+        }
+      ]
+    }
+  },
+  "issues": [
+    {
+      "severity": "info",
+      "type": "no_comparison",
+      "message": "Dify: 无昨日数据，跳过 Delta 对比"
+    },
+    {
+      "severity": "info",
+      "type": "no_comparison",
+      "message": "Coze / 扣子: 无昨日数据，跳过 Delta 对比"
+    },
+    {
+      "severity": "info",
+      "type": "no_comparison",
+      "message": "LangChain / LangGraph: 无昨日数据，跳过 Delta 对比"
+    },
+    {
+      "severity": "info",
+      "type": "no_comparison",
+      "message": "AutoGPT / AgentGPT: 无昨日数据，跳过 Delta 对比"
+    },
+    {
+      "severity": "info",
+      "type": "no_comparison",
+      "message": "CrewAI: 无昨日数据，跳过 Delta 对比"
+    },
+    {
+      "severity": "info",
+      "type": "no_comparison",
+      "message": "OpenAI Agents SDK: 无昨日数据，跳过 Delta 对比"
+    },
+    {
+      "severity": "info",
+      "type": "no_comparison",
+      "message": "Bolt.new / Lovable: 无昨日数据，跳过 Delta 对比"
+    },
+    {
+      "severity": "info",
+      "type": "no_comparison",
+      "message": "Vercel AI SDK: 无昨日数据，跳过 Delta 对比"
+    }
+  ],
+  "thresholds": {
+    "STAR_DELTA_MAX": 5000,
+    "FORK_DELTA_MAX": 500,
+    "DATA_AGE_MAX_HOURS": 48,
+    "FIELD_MISSING_WARN": 0.3
+  }
+}
