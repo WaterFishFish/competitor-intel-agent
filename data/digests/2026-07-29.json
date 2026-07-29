@@ -1,0 +1,181 @@
+{
+  "date": "2026-07-29",
+  "project": "AI Agent 竞品情报简报",
+  "week_num": 31,
+  "date_range": "2026-07-23 ~ 2026-07-29",
+  "generated_at": "2026-07-29 18:44 GMT+8",
+  "sections": {
+    "competitor_sections": [
+      {
+        "name": "Dify",
+        "stars": 150683,
+        "forks": 23742,
+        "star_delta_week": 2,
+        "star_delta_month": 3645,
+        "tags": ["产品更新", "GitHub 趋势"],
+        "source": "GitHub + Web",
+        "highlights": [
+          "Dify v1.16.1 发布：新增 Tool Multi-Select Input（多选下拉参数配置）、Workflow Node Locator（日志节点定位）、Block Selector 改进",
+          "v1.16.0 两周前上线 Dify Agent（Beta），带来全新的 Agent 体验",
+          "本月 Stars 增长 +3,645，持续高热度，累计 150,683 ⭐"
+        ],
+        "release_info": {
+          "tag": "v1.16.1",
+          "date": "2026-07-28",
+          "summary": "Workflow 工具节点支持多选下拉输入，点击 node_id 可定位编辑器节点，Block 选择器面板改进"
+        },
+        "pricing_change": null,
+        "impact": "正面",
+        "impact_detail": "Dify Agent Beta 标志着从 RAG 平台向 Agent 平台的战略转型，1.16.1 的 Workflow 增强进一步提升易用性"
+      },
+      {
+        "name": "Coze / 扣子",
+        "stars": 21278,
+        "forks": 3091,
+        "star_delta_week": 0,
+        "star_delta_month": 212,
+        "tags": ["稳定发展"],
+        "source": "GitHub + Web",
+        "highlights": [
+          "Coze Studio v0.5.1（2026年2月发布），近期无新 Release",
+          "Stars 新增 +212，增长平稳；Open PRs 数量较低（50）",
+          "平台仍处于早期阶段，视觉化 Agent 开发有一定竞争力"
+        ],
+        "release_info": null,
+        "pricing_change": null,
+        "impact": "中性",
+        "impact_detail": "Coze 开源版本开发节奏放缓，但字节跳动旗下产品线完整，商业版功能持续完善"
+      },
+      {
+        "name": "LangChain / LangGraph",
+        "stars": 38406,
+        "forks": 6466,
+        "star_delta_week": 2,
+        "star_delta_month": 2333,
+        "tags": ["产品更新", "GitHub 趋势"],
+        "source": "GitHub + Web",
+        "highlights": [
+          "LangGraph v1.2.10 发布（7/28）：type v3 stream_events 返回类型和原生 projections，trace_policy 暴露到 add_node",
+          "月内连续发布 v1.2.8→v1.2.9→v1.2.10，修复 Delta Channel 和 updateState 等问题",
+          "Stars 月增 +2,333，Open PRs 230，项目非常活跃"
+        ],
+        "release_info": {
+          "tag": "v1.2.10",
+          "date": "2026-07-28",
+          "summary": "类型化 stream_events 返回值，trace_policy 配置支持，Delta Channel 修复"
+        },
+        "pricing_change": null,
+        "impact": "正面",
+        "impact_detail": "LangGraph 保持高频迭代，类型化 API 提升 TypeScript/Python 开发体验，企业级 Agent 框架定位持续强化"
+      },
+      {
+        "name": "AutoGPT / AgentGPT",
+        "stars": 185745,
+        "forks": 46067,
+        "star_delta_week": -1,
+        "star_delta_month": 525,
+        "tags": ["产品更新", "平台迭代"],
+        "source": "GitHub + Web",
+        "highlights": [
+          "v0.6.69 发布（7/22）：App 侧边栏布局、Slack/Telegram 主动推送、Agent-Building Mode",
+          "v0.6.67 增加组织/工作空间支持（7/15）",
+          "Stars 已接近 186K，长期第一，但增长趋缓（月增+525）"
+        ],
+        "release_info": {
+          "tag": "v0.6.69",
+          "date": "2026-07-22",
+          "summary": "新增应用侧边栏布局、Copilot Bot 的 Slack/Telegram 主动推送、Agent-Building Mode"
+        },
+        "pricing_change": null,
+        "impact": "正面",
+        "impact_detail": "AutoGPT 平台化方向明确，新增 Org/Workspace 和通知渠道，但相对其他框架增长放缓"
+      },
+      {
+        "name": "CrewAI",
+        "stars": 56314,
+        "forks": 8004,
+        "star_delta_week": 2,
+        "star_delta_month": 1726,
+        "tags": ["高频更新", "Bug 修复"],
+        "source": "GitHub + Web",
+        "highlights": [
+          "密集发布：v1.15.5 (7/20)→v1.15.6 (7/24)→v1.15.7 (7/26)→v1.15.8 (7/28)",
+          "v1.15.8 新增 WaitTool 用于暂停长时间运行任务；一周内修复多项关键 Bug",
+          "Stars 月增 +1,726，Open PRs 高达 619，社区极其活跃"
+        ],
+        "release_info": {
+          "tag": "v1.15.8",
+          "date": "2026-07-28",
+          "summary": "新增 WaitTool，修复 FileWriterTool 写入问题，GPT-5.6 tools/reasoning_effort 兼容"
+        },
+        "pricing_change": null,
+        "impact": "正面",
+        "impact_detail": "CrewAI 高频迭代证明了多 Agent 框架的旺盛需求，GPT-5.6 兼容和 WaitTool 增强实用性"
+      },
+      {
+        "name": "OpenAI Agents SDK",
+        "stars": 28266,
+        "forks": 4395,
+        "star_delta_week": 0,
+        "star_delta_month": 749,
+        "tags": ["重大发布", "新功能"],
+        "source": "GitHub + Web",
+        "highlights": [
+          "v0.19.0 发布（7/27）：Programmatic Tool Calling——OpenAI Responses API 重大新功能",
+          "v0.19.1 在今天发布（7/29）：Sandbox 原生主机路径支持、Realtime 音频诊断修复",
+          "Stars 月增 +749，Open Issues 仅 53（质量高）"
+        ],
+        "release_info": {
+          "tag": "v0.19.1",
+          "date": "2026-07-29",
+          "summary": "Sandbox 支持原生主机路径授权，修复 Realtime WebSocket 错误重试"
+        },
+        "pricing_change": null,
+        "impact": "正面",
+        "impact_detail": "Programmatic Tool Calling 是 OpenAI Agents 生态的关键能力扩展，配合 GPT-5.6 驱动 Agent 开发"
+      },
+      {
+        "name": "Bolt.new / Lovable",
+        "stars": 16479,
+        "forks": 14709,
+        "star_delta_week": 0,
+        "star_delta_month": 46,
+        "tags": ["稳定发展"],
+        "source": "GitHub + Web",
+        "highlights": [
+          "Stars 持续缓慢增长（16,479），无公开 Release 标签",
+          "Fork 数（14,709）接近 Star 数，显示大量开发者基于代码二次开发",
+          "定价：Free（300K token/日）/ Pro（$25/月）/ Teams（$30/人/月）"
+        ],
+        "release_info": null,
+        "pricing_change": null,
+        "impact": "中性",
+        "impact_detail": "Bolt.new 作为 AI 编程工具定位清晰，定价合理，但公开迭代信息有限"
+      },
+      {
+        "name": "Vercel AI SDK",
+        "stars": 25882,
+        "forks": 4874,
+        "star_delta_week": 1,
+        "star_delta_month": null,
+        "tags": ["持续更新", "API 演进"],
+        "source": "GitHub + Web",
+        "highlights": [
+          "同一日发布多个版本（7/28）：ai@7.0.39/40/41",
+          "repairText 选项转为稳定 API，GeneratedImage→GeneratedFile 重命名",
+          "Open PRs 极高的 841，社区贡献活跃"
+        ],
+        "release_info": {
+          "tag": "ai@7.0.41",
+          "date": "2026-07-28",
+          "summary": "Warning banner 信息路由到 stderr，避免污染 stdout 输出"
+        },
+        "pricing_change": null,
+        "impact": "正面",
+        "impact_detail": "AI SDK 7.x 系列稳步推进，API 趋于稳定，Vercel 在 AI 工具链中持续扩大影响力"
+      }
+    ],
+    "industry_trends": "本周 AI Agent 行业呈三线并进格局：① 框架层——LangGraph、CrewAI 持续高频迭代，OpenAI Agents SDK 通过 Programmatic Tool Calling 向企业级能力延伸；② 平台层——Dify Agent Beta 标志开源 LLM 平台向 Agent 平台升级，AutoGPT 持续完善团队和通知基础设施；③ 应用层——Bolt.new 和 Vercel AI SDK 专注 AI 开发工具的开发者体验。整体趋势从单一 Agent 向多 Agent 协作、从实验部署向生产级平台演进。",
+    "key_takeaways": "📌 Dify Agent Beta 上线是本周最大事件——开源 Agent 平台竞赛升温\n📌 OpenAI Agents SDK 一周内连发 v0.18→v0.19，迭代速度显著加快\n📌 CrewAI 一周 4 个版本，GPT-5.6 兼容问题突显新模型对 Agent 框架的兼容性挑战\n📌 价格方面：本周 8 家竞品均无定价变化，市场进入相对稳定期"
+  }
+}

@@ -102,7 +102,7 @@ const TEST_SUITES = {
       run: () => {
         const qDir = path.join(DATA_DIR, 'quality');
         if (!fs.existsSync(qDir)) return { pass: false, detail: 'quality 目录不存在' };
-        const files = fs.readdirSync(qDir).filter(f => f.endsWith('.json') && f !== 'evaluation-results.json').sort().reverse();
+        const files = fs.readdirSync(qDir).filter(f => f.endsWith('.json') && !f.startsWith('evaluation-results')).sort().reverse();
         if (files.length === 0) return { pass: false, detail: '无质量报告' };
         const latest = readJSON(path.join(qDir, files[0]));
         const score = latest?.overall?.score || 0;
